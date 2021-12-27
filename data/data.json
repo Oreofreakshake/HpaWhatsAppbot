@@ -1,0 +1,17 @@
+{
+    "en": {
+        "welcome": "Welcome to the HPA Maldives COVID-19 bot.\r\n\r\nHere you can find quick links to services & information regarding the COVID-19 situation in Maldives.\r\n\r\n\r\n\r\nWhat would you like to know about?\nChoose a number",
+        "options":{
+            "1. Statistics":"Link to summary page of COVID-19 website",     
+            "2. Managing COVID 19":"Link to e-book (Dhiv/Eng)",
+            "3. Vaccination centers":"Link from COVID-19 website ",
+            "4. Flu clinics & sample collection centers":"Link from COVID-19 website ",
+            "5. Domestic travel criteria & islands":"https://covid19.health.gov.mv/covid-19-vaccination-coverage-criteria-for-domestic-travel/?c=0",
+            "6. Islands under monitoring":"Link from COVID-19 website ",
+            "7. Links and contacts":"Link from COVID-19 website ",
+            "8. Call 1676":"Next sheet"
+        }
+    }
+
+
+}
