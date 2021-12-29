@@ -3,7 +3,7 @@ from twilio.twiml.messaging_response import MessagingResponse
 from jsonpy import JsonSource
 from options import Option
 
-data_source = JsonSource("data/data.json")
+data_source = JsonSource("dataforwhatsapp/dataforwhatsapp.json")
 data = data_source.data
 listdata = data["en"]["options"]
 
@@ -31,8 +31,7 @@ def main():
             "4. Flu clinics & sample collection centers",
             "5. Domestic travel criteria & islands",
             "6. Islands under monitoring",
-            "7. Links and contacts",
-            "8. Call 1676",
+            "7. Call 1676",
         ]
         for index in indexvalue:
             resp.message(index)
@@ -71,11 +70,6 @@ def main():
         return str(resp)
     if msg == "7":
         datagiven = Option("7")
-
-        resp.message(datagiven.throwdata)
-        return str(resp)
-    if msg == "8":
-        datagiven = Option("8")
 
         resp.message(datagiven.throwdata)
         return str(resp)

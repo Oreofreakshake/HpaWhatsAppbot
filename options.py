@@ -1,7 +1,7 @@
 from jsonpy import JsonSource
 
 
-data_source = JsonSource("data/data.json")
+data_source = JsonSource("dataforwhatsapp/dataforwhatsapp.json")
 data = data_source.data
 listdata = data["en"]["options"]
 
@@ -18,8 +18,7 @@ class Option:
             "4. Flu clinics & sample collection centers",
             "5. Domestic travel criteria & islands",
             "6. Islands under monitoring",
-            "7. Links and contacts",
-            "8. Call 1676",
+            "7. Call 1676",
         ]
 
         if option == "1":
@@ -36,6 +35,3 @@ class Option:
             self.throwdata = listdata[indexvalue[5]]
         if option == "7":
             self.throwdata = listdata[indexvalue[6]]
-        if option == "8":
-            self.throwdata = listdata[indexvalue[7]]
-
