@@ -9,5 +9,5 @@
 
 -----------------------------------------------------------
 **As heroku started charging for hosting, this bot is no longer in use. Therefore, the accessing method mentioned above will not work**<br>
-*PS: there are also better ways to build a similar bot by writing more efficient and less repetitive code, however (anyone) is free to use this repo for your bot's reference*<br><br>
+*PS: there are also better ways to build a similar bot by writing more efficient and less repetitive code. Unfortunately i won't be fixing any bugs or issues for this repo, however (anyone) is free to use this repo for your bot's reference*<br><br>
 thank you !
